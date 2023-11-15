@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit user </title>
+    <style>
+        .edit{
+            width: 400px;
+            height: 100vh;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="edit">
+        <form method="get" action="/users">
+            <h2>Your user name is : <%= result[0].userName %> </h2>
+            <input type="text" placeholder="type name to change" name="userName">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
