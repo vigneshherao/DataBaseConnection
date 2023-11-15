@@ -1,0 +1,24 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshherao/DataBaseConnection.git"
+  },
+  "keywords": [],
+  "author": "vignesh H E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshherao/DataBaseConnection/issues"
+  },
+  "homepage": "https://github.com/vigneshherao/DataBaseConnection#readme",
+  "dependencies": {
+    "faker": "^6.6.6",
+    "mysql2": "^3.6.3"
+  }
+}
